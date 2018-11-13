@@ -46,7 +46,7 @@ Requires iOS 11.0.
 
 The sketch, LED-BLE.ino, needs be loaded on to the Arduino. **Note: You may need to disconnect TX and RX from the Arduino in order to install the sketch.
 
-Attributions:
+#### Attributions:
 
 lighting by mynamepong from the Noun Project
 
