@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zGI-g6-Qwb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="LetThereBeLight" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Power" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mw3-yQ-cEB">
+                                <rect key="frame" x="155" y="164" width="65" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="1gR-kN-wqg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5ox-0s-eLZ">
+                                <rect key="frame" x="164" y="217" width="49" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="Sr4-bw-2wP"/>
+                                    <constraint firstAttribute="height" constant="31" id="ziQ-o6-Td1"/>
+                                </constraints>
+                                <color key="onTintColor" red="0.094117647060000004" green="0.95686274510000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Quw-kZ-Pyg"/>
+                                </connections>
+                            </switch>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LnR-Vy-4P3" customClass="NVActivityIndicatorView" customModule="NVActivityIndicatorView">
+                                <rect key="frame" x="137.5" y="283.5" width="100" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="DS3-KM-lFJ"/>
+                                    <constraint firstAttribute="width" constant="100" id="c35-Zq-Ui4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="0.094117647060000004" green="0.95686274510000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="typeName" value="ballScaleRippleMultiple"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blink" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hup-NZ-TX1">
+                                <rect key="frame" x="162" y="278" width="51" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gqb-h5-QeJ">
+                                <rect key="frame" x="163" y="331" width="51" height="31"/>
+                                <connections>
+                                    <action selector="blinkValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Kud-aY-Bz5"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LnR-Vy-4P3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="92r-vO-K3J"/>
+                            <constraint firstItem="5ox-0s-eLZ" firstAttribute="top" secondItem="mw3-yQ-cEB" secondAttribute="bottom" constant="24" id="XDX-1i-7Xl"/>
+                            <constraint firstItem="mw3-yQ-cEB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="XMv-bC-4T5"/>
+                            <constraint firstItem="hup-NZ-TX1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c4P-3c-ZIf"/>
+                            <constraint firstItem="gqb-h5-QeJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mV8-Ed-i0D"/>
+                            <constraint firstItem="gqb-h5-QeJ" firstAttribute="top" secondItem="hup-NZ-TX1" secondAttribute="bottom" constant="24" id="pYk-L7-mST"/>
+                            <constraint firstItem="LnR-Vy-4P3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qlG-uO-CHD"/>
+                            <constraint firstItem="hup-NZ-TX1" firstAttribute="top" secondItem="5ox-0s-eLZ" secondAttribute="bottom" constant="30" id="twv-it-bwf"/>
+                            <constraint firstItem="5ox-0s-eLZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w2X-05-xsN"/>
+                            <constraint firstItem="mw3-yQ-cEB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wbZ-RF-cCq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7uU-Ly-4o0">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="Bluetooth" width="30" style="plain" id="KyM-0j-Exf">
+                            <connections>
+                                <action selector="connectAction:" destination="BYZ-38-t0r" id="D6U-gM-1Mg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="blinkSwitch" destination="gqb-h5-QeJ" id="aeM-4H-Bdi"/>
+                        <outlet property="lightSwitch" destination="5ox-0s-eLZ" id="Q75-P2-M6I"/>
+                        <outlet property="loadingIndicator" destination="LnR-Vy-4P3" id="UBU-Up-3HB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134" y="101"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="q61-yr-SYV">
+            <objects>
+                <navigationController id="zGI-g6-Qwb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7vE-GE-yHf">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.094117647060000004" green="0.95686274510000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.094117647060000004" green="0.95686274510000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="23C-SA-Pla"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CKU-r7-O6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-772" y="101"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bluetooth" width="50" height="50"/>
+    </resources>
+</document>

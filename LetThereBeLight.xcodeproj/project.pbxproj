@@ -8,34 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		17428ECB1FAF480700D4EEF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17428ECA1FAF480700D4EEF4 /* AppDelegate.swift */; };
-		17428ECD1FAF480700D4EEF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17428ECC1FAF480700D4EEF4 /* ViewController.swift */; };
+		17428ECD1FAF480700D4EEF4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17428ECC1FAF480700D4EEF4 /* MainViewController.swift */; };
 		17428ED01FAF480700D4EEF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17428ECE1FAF480700D4EEF4 /* Main.storyboard */; };
 		17428ED21FAF480700D4EEF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17428ED11FAF480700D4EEF4 /* Assets.xcassets */; };
 		17428ED51FAF480700D4EEF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17428ED31FAF480700D4EEF4 /* LaunchScreen.storyboard */; };
-		17428EE01FAF480800D4EEF4 /* LetThereBeLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17428EDF1FAF480800D4EEF4 /* LetThereBeLightTests.swift */; };
+		17428EEF1FB00C3C00D4EEF4 /* BluetoothIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17428EEE1FB00C3C00D4EEF4 /* BluetoothIO.swift */; };
+		17428EF21FB00C7A00D4EEF4 /* NSData+Int8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17428EF11FB00C7A00D4EEF4 /* NSData+Int8.swift */; };
+		5A9D436A499872AE56E01732 /* Pods_LetThereBeLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8BC277140448745D0A9197 /* Pods_LetThereBeLight.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		17428EDC1FAF480800D4EEF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 17428EBF1FAF480700D4EEF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 17428EC61FAF480700D4EEF4;
-			remoteInfo = LetThereBeLight;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		17428EC71FAF480700D4EEF4 /* LetThereBeLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetThereBeLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17428ECA1FAF480700D4EEF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17428ECC1FAF480700D4EEF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17428ECC1FAF480700D4EEF4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		17428ECF1FAF480700D4EEF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17428ED11FAF480700D4EEF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17428ED41FAF480700D4EEF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17428ED61FAF480700D4EEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17428EDB1FAF480800D4EEF4 /* LetThereBeLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetThereBeLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		17428EDF1FAF480800D4EEF4 /* LetThereBeLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetThereBeLightTests.swift; sourceTree = "<group>"; };
-		17428EE11FAF480800D4EEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17428EEE1FB00C3C00D4EEF4 /* BluetoothIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothIO.swift; sourceTree = "<group>"; };
+		17428EF11FB00C7A00D4EEF4 /* NSData+Int8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSData+Int8.swift"; sourceTree = "<group>"; };
+		8E385E85B35E05485A5B9E57 /* Pods-LetThereBeLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetThereBeLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetThereBeLight/Pods-LetThereBeLight.debug.xcconfig"; sourceTree = "<group>"; };
+		8E8BC277140448745D0A9197 /* Pods_LetThereBeLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetThereBeLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9924D905F858A8CECF1249 /* Pods-LetThereBeLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetThereBeLight.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetThereBeLight/Pods-LetThereBeLight.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,13 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		17428ED81FAF480800D4EEF4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5A9D436A499872AE56E01732 /* Pods_LetThereBeLight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +48,9 @@
 			isa = PBXGroup;
 			children = (
 				17428EC91FAF480700D4EEF4 /* LetThereBeLight */,
-				17428EDE1FAF480800D4EEF4 /* LetThereBeLightTests */,
 				17428EC81FAF480700D4EEF4 /* Products */,
+				B5DE545882BD471935CA05B9 /* Pods */,
+				CF15F4A08C8F29D86664F9DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				17428EC71FAF480700D4EEF4 /* LetThereBeLight.app */,
-				17428EDB1FAF480800D4EEF4 /* LetThereBeLightTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,22 +66,64 @@
 			isa = PBXGroup;
 			children = (
 				17428ECA1FAF480700D4EEF4 /* AppDelegate.swift */,
-				17428ECC1FAF480700D4EEF4 /* ViewController.swift */,
-				17428ECE1FAF480700D4EEF4 /* Main.storyboard */,
+				17428EF01FB00C6500D4EEF4 /* Extensions */,
+				17428EED1FB00C1B00D4EEF4 /* Bluetooth */,
+				17428EEA1FB00BC600D4EEF4 /* ViewControllers */,
+				17428EEB1FB00BDF00D4EEF4 /* Storyboards */,
 				17428ED11FAF480700D4EEF4 /* Assets.xcassets */,
-				17428ED31FAF480700D4EEF4 /* LaunchScreen.storyboard */,
 				17428ED61FAF480700D4EEF4 /* Info.plist */,
 			);
 			path = LetThereBeLight;
 			sourceTree = "<group>";
 		};
-		17428EDE1FAF480800D4EEF4 /* LetThereBeLightTests */ = {
+		17428EEA1FB00BC600D4EEF4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				17428EDF1FAF480800D4EEF4 /* LetThereBeLightTests.swift */,
-				17428EE11FAF480800D4EEF4 /* Info.plist */,
+				17428ECC1FAF480700D4EEF4 /* MainViewController.swift */,
 			);
-			path = LetThereBeLightTests;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		17428EEB1FB00BDF00D4EEF4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				17428ECE1FAF480700D4EEF4 /* Main.storyboard */,
+				17428ED31FAF480700D4EEF4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		17428EED1FB00C1B00D4EEF4 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				17428EEE1FB00C3C00D4EEF4 /* BluetoothIO.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		17428EF01FB00C6500D4EEF4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				17428EF11FB00C7A00D4EEF4 /* NSData+Int8.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B5DE545882BD471935CA05B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E385E85B35E05485A5B9E57 /* Pods-LetThereBeLight.debug.xcconfig */,
+				CF9924D905F858A8CECF1249 /* Pods-LetThereBeLight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF15F4A08C8F29D86664F9DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E8BC277140448745D0A9197 /* Pods_LetThereBeLight.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17428EE41FAF480800D4EEF4 /* Build configuration list for PBXNativeTarget "LetThereBeLight" */;
 			buildPhases = (
+				B03F0CC49E96818FC1157BA9 /* [CP] Check Pods Manifest.lock */,
 				17428EC31FAF480700D4EEF4 /* Sources */,
 				17428EC41FAF480700D4EEF4 /* Frameworks */,
 				17428EC51FAF480700D4EEF4 /* Resources */,
+				012C1BB8C296180B52BCEA11 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -115,24 +147,6 @@
 			productName = LetThereBeLight;
 			productReference = 17428EC71FAF480700D4EEF4 /* LetThereBeLight.app */;
 			productType = "com.apple.product-type.application";
-		};
-		17428EDA1FAF480800D4EEF4 /* LetThereBeLightTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 17428EE71FAF480800D4EEF4 /* Build configuration list for PBXNativeTarget "LetThereBeLightTests" */;
-			buildPhases = (
-				17428ED71FAF480800D4EEF4 /* Sources */,
-				17428ED81FAF480800D4EEF4 /* Frameworks */,
-				17428ED91FAF480800D4EEF4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				17428EDD1FAF480800D4EEF4 /* PBXTargetDependency */,
-			);
-			name = LetThereBeLightTests;
-			productName = LetThereBeLightTests;
-			productReference = 17428EDB1FAF480800D4EEF4 /* LetThereBeLightTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -147,11 +161,6 @@
 					17428EC61FAF480700D4EEF4 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-					};
-					17428EDA1FAF480800D4EEF4 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 17428EC61FAF480700D4EEF4;
 					};
 				};
 			};
@@ -169,7 +178,6 @@
 			projectRoot = "";
 			targets = (
 				17428EC61FAF480700D4EEF4 /* LetThereBeLight */,
-				17428EDA1FAF480800D4EEF4 /* LetThereBeLightTests */,
 			);
 		};
 /* End PBXProject section */
@@ -185,42 +193,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		17428ED91FAF480800D4EEF4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		012C1BB8C296180B52BCEA11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LetThereBeLight/Pods-LetThereBeLight-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LoaderButton/LoaderButton.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoaderButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LetThereBeLight/Pods-LetThereBeLight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		B03F0CC49E96818FC1157BA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetThereBeLight-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17428EC31FAF480700D4EEF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17428ECD1FAF480700D4EEF4 /* ViewController.swift in Sources */,
+				17428ECD1FAF480700D4EEF4 /* MainViewController.swift in Sources */,
+				17428EF21FB00C7A00D4EEF4 /* NSData+Int8.swift in Sources */,
 				17428ECB1FAF480700D4EEF4 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		17428ED71FAF480800D4EEF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				17428EE01FAF480800D4EEF4 /* LetThereBeLightTests.swift in Sources */,
+				17428EEF1FB00C3C00D4EEF4 /* BluetoothIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		17428EDD1FAF480800D4EEF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 17428EC61FAF480700D4EEF4 /* LetThereBeLight */;
-			targetProxy = 17428EDC1FAF480800D4EEF4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		17428ECE1FAF480700D4EEF4 /* Main.storyboard */ = {
@@ -351,6 +379,7 @@
 		};
 		17428EE51FAF480800D4EEF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E385E85B35E05485A5B9E57 /* Pods-LetThereBeLight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +395,7 @@
 		};
 		17428EE61FAF480800D4EEF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9924D905F858A8CECF1249 /* Pods-LetThereBeLight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,40 +406,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		17428EE81FAF480800D4EEF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BVQWZHV3NP;
-				INFOPLIST_FILE = LetThereBeLightTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.digitalbeans.LetThereBeLightTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetThereBeLight.app/LetThereBeLight";
-			};
-			name = Debug;
-		};
-		17428EE91FAF480800D4EEF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BVQWZHV3NP;
-				INFOPLIST_FILE = LetThereBeLightTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.digitalbeans.LetThereBeLightTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetThereBeLight.app/LetThereBeLight";
 			};
 			name = Release;
 		};
@@ -430,15 +426,6 @@
 			buildConfigurations = (
 				17428EE51FAF480800D4EEF4 /* Debug */,
 				17428EE61FAF480800D4EEF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		17428EE71FAF480800D4EEF4 /* Build configuration list for PBXNativeTarget "LetThereBeLightTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				17428EE81FAF480800D4EEF4 /* Debug */,
-				17428EE91FAF480800D4EEF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
