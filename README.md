@@ -6,7 +6,7 @@ This project uses an Arduino UNO with a BLE module and connected LED.
 The main view controller displays 2 switches. The power switch will turn the LED on/off. When the LED is on, the blink switch will cause the LED to blink. 
 The Bluetooth button can be used to re-attempt connection to the BLE
 
-![Screenshot](/images/app-screenshot.jpeg)
+![Screenshot](/images/app-screenshot.jpeg | width=250)
 
 
 Requires iOS 11.0.
@@ -16,10 +16,10 @@ Requires iOS 11.0.
 ### Components: 
 
 	1. Arduino Uno
-	1. DSD TECH Bluetooth 4.0 BLE module SH-HC-08
-	1. LED
-	1. Resistor
-	1. Jumper wires
+	2. DSD TECH Bluetooth 4.0 BLE module SH-HC-08
+	3. LED
+	4. Resistor
+	5. Jumper wires
 
 
 ### Connections: 
@@ -49,4 +49,5 @@ The sketch, LED-BLE.ino, needs be loaded on to the Arduino. **Note: You may need
 Attributions:
 
 lighting by mynamepong from the Noun Project
+
 Bluetooth by Aybige from the Noun Project
