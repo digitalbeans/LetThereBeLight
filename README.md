@@ -31,9 +31,9 @@ Requires iOS 11.0.
 	* GND > GND
 	* EN > 5V
 
-![Full setup](/images/full-setup.JPG)
+<img src="/images/full-setup.JPG" width=250>
 
-![Arduino Connections](/images/Arduino-connections.JPG)
+<img src="/images/Arduino-connections.JPG" width=250>
 
 #### Arduino Uno > Resistor > LED
 
@@ -41,7 +41,7 @@ Requires iOS 11.0.
 	* Resistor > LED Positive (Long) Leg 
 	* LED Short leg > Arduino GND
 
-![BlE Connections](/images/BLE-connections.JPG)
+<img src="/images/BLE-connections.JPG" width=250>
 
 
 The sketch, LED-BLE.ino, needs be loaded on to the Arduino. **Note: You may need to disconnect TX and RX from the Arduino in order to install the sketch.
